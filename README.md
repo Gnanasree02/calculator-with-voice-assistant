@@ -1,115 +1,83 @@
 
+# 🧮 Calculator with Voice Assistant
 
-## 🧮 Calculator with Voice Assistant 🔊
-
-A smart calculator application integrated with a voice assistant. Perform arithmetic operations by typing or speaking your expression — making calculations hands-free, fast, and user-friendly.
-
----
-
-### 🚀 Features
-
-* 🔢 Perform basic arithmetic operations (add, subtract, multiply, divide)
-* 🎙️ Voice input using speech recognition
-* 🗣️ Audio feedback for results
-* 👨‍💻 Simple and clean GUI (optional, if using a GUI)
-* 🌐 Cross-platform (Windows/Linux/Mac)
+Welcome to the **Calculator with Voice Assistant** repository!
+This project was developed by [@Gnanasree02](https://github.com/Gnanasree02) as part of a learning initiative to combine traditional UI-based tools with voice-based interaction.
 
 ---
 
-### 📸 Screenshots *(optional)*
+## 🎯 Project Overview
 
-> *(Add a few screenshots of the calculator interface, or voice command in action if available)*
-
----
-
-### 🛠️ Tech Stack
-
-* **Language:** Python
-* **Libraries Used:**
-
-  * `speech_recognition` – To recognize spoken input
-  * `pyttsx3` – To provide voice responses
-  * `re` – For parsing and evaluating expressions
-  * `tkinter` *(optional)* – For GUI interface
+This is a simple yet interactive **calculator web app** that supports both **manual input** and **voice commands** for basic arithmetic operations. It's designed to offer a hands-free experience using JavaScript’s speech recognition APIs.
 
 ---
 
-### 📦 Installation
+## ✨ Features
+
+* 🧮 **Basic Calculator Functions** – Addition, subtraction, multiplication, and division.
+* 🎤 **Voice Recognition Support** – Perform calculations via voice commands.
+* 🎨 **User-Friendly Interface** – Clean and modern UI using HTML and CSS.
+* ⚡ **Real-Time Evaluation** – Displays results instantly as you input.
+
+---
+
+## 🛠️ Technologies Used
+
+* **HTML5** – Page structure and layout
+* **CSS3** – Styling and responsive design
+* **JavaScript** – Functionality and speech recognition
+
+---
+
+## 🗂️ Project Structure
+
+```
+calculator-with-voice-assistant/
+├── index.html       # Main HTML file
+├── styles.css       # Custom CSS styling
+└── script.js        # JavaScript logic with voice assistant
+```
+
+---
+
+## 🚀 Getting Started
+
+To run this project locally:
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/calculator-voice-assistant.git
-cd calculator-voice-assistant
+git clone https://github.com/Gnanasree02/calculator-with-voice-assistant.git
 
-# Install required libraries
-pip install -r requirements.txt
+# Navigate into the project folder
+cd calculator-with-voice-assistant
+
+# Open index.html in your browser
 ```
 
----
-
-### ✅ Usage
-
-```bash
-python calculator.py
-```
-
-Then:
-
-* Speak your math expression clearly, e.g., "What is 25 plus 13"
-* Or type it manually into the interface (if GUI is present)
-
-**Example Voice Commands:**
-
-* “What is 5 plus 7?”
-* “Calculate 12 divided by 4”
-* “Add 10 and 20”
+> 💡 Make sure your microphone is enabled and allowed by your browser for voice recognition to work.
 
 ---
 
-### 📂 Project Structure
+## 🗣️ Example Voice Commands
 
-```
-calculator-voice-assistant/
-│
-├── calculator.py          # Main script
-├── voice_assistant.py     # Handles speech input/output
-├── requirements.txt       # List of dependencies
-└── README.md              # Project documentation
-```
+* “Calculate 5 plus 3”
+* “What is 10 minus 4”
+* “Multiply 6 by 2”
+* “Divide 20 by 4”
 
----
+*The assistant parses your voice into operations and shows the result on screen.*
 
-### 🧠 How It Works
-
-1. The app listens to your voice command using the microphone.
-2. It parses the spoken math expression using regex or a simple NLP parser.
-3. Evaluates the result and displays it.
-4. Uses text-to-speech to read the result aloud.
 
 ---
 
-### 🔒 Prerequisites
+## 📜 License
 
-* Python 3.6+
-* Microphone (for voice input)
-* Internet connection (for some speech recognition engines)
+This project is licensed under the **MIT License** – feel free to use and modify it.
 
 ---
 
-### 📈 Future Improvements
+## 🙏 Acknowledgment
 
-* Support for advanced math (e.g., square root, trigonometry)
-* Natural language understanding (e.g., "What is the product of 9 and 8?")
-* Offline recognition engine
-* Mobile version
-
----
-
-### 🤝 Contributing
-
-Contributions are welcome! Feel free to fork the project and submit a pull request.
-
----
-
+Thanks to open-source contributors and browser API documentation for enabling speech recognition on the web.
 
 
